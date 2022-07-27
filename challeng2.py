@@ -24,7 +24,7 @@ rollArray = []
 
 while ii < 1:
   num=0
-  while num not in range(1, 99, 1):
+  while num not in range(1, 100, 1):
     try:
       num = int(input('How many dice would you like to roll (1-99)? '))
     except ValueError:
